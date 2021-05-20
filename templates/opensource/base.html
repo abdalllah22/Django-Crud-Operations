@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading">Django</div>
+        <div class="panel-body">
+            {% include 'opensource/header.html'%}
+            {% block title_block %}
+
+            {% endblock %}
+
+            {% block main_block %}
+
+            {% endblock %}
+            {% include 'opensource/footer.html'%}
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+</html>
